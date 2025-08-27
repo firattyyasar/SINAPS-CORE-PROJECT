@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000
+GameObject:
+  m_Name: Main Camera
+  m_Component:
+  - component: {fileID: 1001}
+  - component: {fileID: 1002}
+--- !u!4 &1001
+Transform:
+  m_GameObject: {fileID: 1000}
+--- !u!20 &1002
+Camera:
+  m_GameObject: {fileID: 1000}
+  m_Enabled: 1
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.1921569, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect: {x: 0, y: 0, width: 1, height: 1}
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask: {m_Bits: 4294967295}
